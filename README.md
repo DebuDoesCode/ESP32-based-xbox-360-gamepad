@@ -44,3 +44,6 @@ Buttons: one leg to the GPIO, the diagonally opposite leg to GND (internal pull-
 - the python script must constantly keep running in the background. If it is closed, the virtual gamepad disconnects.
 - Stick directions can be flipped with the `INVERT` list in `gamepad.py`.
 - The Python script was written with AI assistance.
+
+## Demo
+[google drive](https://drive.google.com/drive/folders/1YRcsxh0ck-ftof3_ygBeJYhW_rbsMEM_)
