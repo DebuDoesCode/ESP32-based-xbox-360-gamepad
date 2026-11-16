@@ -9,7 +9,7 @@ The classic ESP32 has no native USB HID, and my PC has no Bluetooth, so the ESP3
 
 ## Status
 - Working: both joysticks, including L3/R3 clicks. Tested on an online gamepad tester and in Assetto Corsa.
-- Planned: A/B/X/Y, L1/R1, 4-way D-pad (firmware and pins are in place; waiting for switches with longer legs) and potentiometer triggers (LT/RT).
+- Planned: A/B/X/Y, L1/R1, 4-way D-pad (firmware and pins are in place; waiting for switches with longer legs) and potentiometer triggers (LT/RT). Adding Bluetooth support to use it with any device supporting bluetooth gamepads.
 
 ## Components
 - NodeMCU ESP32S
@@ -44,6 +44,11 @@ Buttons: one leg to the GPIO, the diagonally opposite leg to GND (internal pull-
 - the python script must constantly keep running in the background. If it is closed, the virtual gamepad disconnects.
 - Stick directions can be flipped with the `INVERT` list in `gamepad.py`.
 - The Python script was written with AI assistance.
+
+## Verification 
+- serial monitor in Arduino IDE
+- [online gamepad tester](https://hardwaretester.com/gamepad)
+- a lap in Assetto Corsa game 
 
 ## Demo
 [google drive](https://drive.google.com/drive/folders/1YRcsxh0ck-ftof3_ygBeJYhW_rbsMEM_)
