@@ -36,8 +36,8 @@ Buttons: one leg to the GPIO, the diagonally opposite leg to GND (internal pull-
 
 ## Setup
 1. Flash [gamepad_firmware.ino](gamepad_firmware.ino) with Arduino IDE (board: ESP32 Dev Module).
-2. Install Python, then run `python -m pip install pyserial` followed by `python -m pip install vgamepad`. (restart the computer once).
-3. Edit `PORT` in [gamepad.py](gamepad.py) to your COM port, close the Arduino Serial Monitor, and run `python gamepad.py`.
+2. Install Python, then open command prompt and run `python -m pip install pyserial`, followed by `python -m pip install vgamepad`. (restart the computer once).
+3. Edit `PORT` in [gamepad.py](gamepad.py) to your COM port, close the Arduino Serial Monitor, open command prompt inside that folder and run `python gamepad.py`.
 4. Roll both sticks fully a few times so the script learns their range.
 
 ## Notes
